@@ -11,11 +11,11 @@ greencar_x=5;
 greencar_y=225;
 
 function add() {
-	background_imgTag = new Image(); //defining a variable with a new image
-	background_imgTag.onload = uploadBackground; // setting a function, onloading this variable
-	background_imgTag.src = background_image; // load image
+	background_imgTag = new Image(); 
+	background_imgTag.onload = uploadBackground; 
+	background_imgTag.src = background_image; 
 
-	greencar_imgTag = new Image(); //defining a variable with a new image
+	greencar_imgTag = new Image(); 
 	greencar_imgTag.onload = uploadgreencar;
 	greencar_imgTag.src = greencar_image;	
 }
